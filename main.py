@@ -1,5 +1,5 @@
-import herramientas
-
+import sys 
+from herramientas import *
 
 # =====================================================================
 # Ejecución del menú y el sistema general
