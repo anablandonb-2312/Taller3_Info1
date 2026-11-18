@@ -15,7 +15,7 @@ El sistema integra herramientas de manipulación de archivos multiformato (**TXT
    * `/data/json/`: Exportación e importación en formato JSON.
 6. **Integración con MongoDB Atlas (NoSQL):**
    * Conexión remota a clúster de MongoDB (con modo seguro de simulación local si no hay conexión).
-   * Inserción masiva de documentos en la colección `signos\_vitales`.
+   * Inserción masiva de documentos en la colección `signos_vitales`.
    * Consulta agregada del **promedio de Frecuencia Cardíaca**.
    * Filtrado de alerta de pacientes con **\\(\text{SpO}_2 &lt; 94\%\\)**.
    * Exportación de resultados de consulta a `/data/json/resultados_mongo.json`.
